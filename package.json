@@ -1,0 +1,47 @@
+{
+  "name": "jsse-client",
+  "version": "0.0.1",
+  "description": "A front end client built to accompany the jsse-core e-commerce platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/v3rt1go/jsse-client.git"
+  },
+  "keywords": [
+    "jsse",
+    "jsse-client",
+    "e-commerce",
+    "semantic-ui"
+  ],
+  "author": "Alex Griciuc <agriciuc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/v3rt1go/jsse-client/issues"
+  },
+  "homepage": "https://github.com/v3rt1go/jsse-client#readme",
+  "dependencies": {
+    "history": "^1.17.0",
+    "jquery": "^2.1.4",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "react-router": "^1.0.3",
+    "semantic-ui-css": "^2.1.7"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.26",
+    "babel-eslint": "^4.1.6",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-2": "^6.3.13",
+    "eslint": "^1.10.3",
+    "eslint-loader": "^1.1.1",
+    "eslint-plugin-filenames": "^0.2.0",
+    "eslint-plugin-react": "^3.13.1",
+    "webpack": "^1.12.9"
+  }
+}

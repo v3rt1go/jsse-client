@@ -1,0 +1,22 @@
+.plate { 
+  margin-right: 1em !important;
+}
+
+i.nav.icon {
+  font-size: 1.2em;
+}
+
+.caps {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 21px;
+}
+
+.cursive {
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 31px;
+  font-weight: normal;
+}
+
+span.cart-total {
+  padding-left: 0.5em;
+}
