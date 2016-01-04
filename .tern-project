@@ -1,8 +1,8 @@
 {
+  "ecmaVersion": 6,
   "libs": [
-      "browser",
-      "ecma5",
-      "ecma6"
+    "browser",
+    "jquery"
   ],
   "dontLoad": [
     "node_modules/**"
@@ -10,7 +10,6 @@
   "plugins": {
     "node": {
       "load": true
-    },
-    "lint": {}
+    }
   }
 }

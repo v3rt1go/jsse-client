@@ -8,9 +8,9 @@ const WideTemplate = () => {
       <MainNav />
       <img src="http://placehold.it/500x800.jpg" />
 
-      <div className="ui mini positive button" tabindex="0">
+      <div className="ui mini positive button" tabIndex="0">
         <i className="cart icon"></i>
-        TOTAL 0 RON 
+        TOTAL 0 RON
       </div>
     </div>
   );
