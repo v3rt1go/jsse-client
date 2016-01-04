@@ -6,7 +6,7 @@ const LeftMenu = () => {
     <div className="left menu">
       <a href="/" className="header borderless item">
         <img src="images/logo-circle.png" className="logo plate" />
-        <span className="caps"> ROMANIAN</span> 
+        <span className="caps"> ROMANIAN</span>
         <span className="cursive">Signature</span>
       </a>
       <a className="item borderless" href="#">

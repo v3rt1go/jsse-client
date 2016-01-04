@@ -5,7 +5,7 @@ const LeftMenu = () => {
   return (
     <div className="right menu">
       <div className="item">
-        <div className="ui icon positive button" tabindex="0">
+        <div className="ui icon positive button" tabIndex="0">
           <div className="ui tiny floating circular red label">5</div>
           <i className="cart icon"></i>
           {/* TODO: Default text for no items in cart is: COSUL MEU */}

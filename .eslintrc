@@ -3,7 +3,7 @@
   "rules": {
     "indent": 0,
     "quotes": 0,
-    "linebreak-style": [2, "unix"],
+    "linebreak-style": 0,
     "semi": [2, "always"],
     "wrap-iife": [2, "outside"],
     "no-console": 0,
