@@ -5,7 +5,7 @@ import RightMenu from './right-menu';
 
 const MainNav = () => {
   return (
-    <div className="ui attached main menu">
+    <div className="ui attached small menu">
       <div className="ui container">
         <LeftMenu />
         <RightMenu />
