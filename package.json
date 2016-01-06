@@ -29,7 +29,8 @@
     "react": "^0.14.3",
     "react-dom": "^0.14.3",
     "react-router": "^1.0.3",
-    "semantic-ui-css": "^2.1.7"
+    "semantic-ui-css": "^2.1.7",
+    "semantic-ui-dropdown": "^2.1.7"
   },
   "devDependencies": {
     "babel-core": "^6.3.26",

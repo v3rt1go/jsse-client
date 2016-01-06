@@ -1,47 +1,33 @@
 'use strict';
 import React from 'react';
+import AccountSubmenu from './user/account-submenu';
+import MailSubmenu from './user/mail-submenu';
+import FavoritesSubmenu from './user/favorites-submenu';
+import SellerSubmenu from './user/seller-submenu';
 
-const UserNavItem = () => {
-  return (
-    <div className="item userNav">
-      <a class="ui dropdown item">
-        Messages
-        <i class="dropdown icon"></i>
-        <div class="menu">
-          <div class="item">
-            <i class="dropdown icon"></i>
-            <span class="text">Categories</span>
-            <div class="menu">
-              <div class="item">Unread</div>
-              <div class="item">Promotions</div>
-              <div class="item">Updates</div>
-            </div>
-          </div>
-          <div class="item">Archive</div>
+class UserNavItem extends React.Component {
+  componentDidMount() {
+    $('.userNav .dropdown').dropdown({
+      on: 'hover'
+    });
+  }
+
+  render() {
+    return (
+      <div className="item userNav">
+        <div className="ui icon buttons">
+          <AccountSubmenu />
+          <MailSubmenu />
+          <FavoritesSubmenu />
+          <SellerSubmenu />
         </div>
-      </a>
-      {/*<div className="ui basic icon buttons">
-        <button className="ui button"><i className="user icon"></i></button>
-        <button className="ui button">
-          <i className="icons">
-            <i className="mail icon"></i>
-            <i className="corner green add icon"></i>
-          </i>
-        </button>
-        <button className="ui button">
-          <i className="icons">
-            <i className="red heart icon"></i>
-            <i className="corner green add icon"></i>
-          </i>
-        </button>
-        <button className="ui button"><i className="teal cube icon"></i></button>
-      </div>*/}
-      <div className="ui basic icon buttons">
-        <button className="ui button"><i className="add user icon"></i> Cont Nou</button>
-        <button className="ui button"><i className="lock icon"></i> Login</button>
+        <div className="basic borderless icon buttons">
+          <button className="ui basic borderless icon button"><i className="add user icon"></i> Cont Nou</button>
+          <button className="ui basic borderless icon button"><i className="lock icon"></i> Login</button>
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default UserNavItem;
